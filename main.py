@@ -66,7 +66,7 @@ class MultiTool(tk.Tk):
             return
 
         # Użyj metody z klasy PDFConverter do konwersji
-        self.converter.convert_pdf_to_docx(pdf_file, docx_file)
+        convert_pdf_to_docx(pdf_file, docx_file)
 
         messagebox.showinfo("Konwersja zakończona", "Konwersja PDF na DOCX zakończona pomyślnie!")
 
